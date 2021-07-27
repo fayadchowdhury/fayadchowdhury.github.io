@@ -13,6 +13,12 @@
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
   <title>Get in touch!</title>
+  <style>
+    .form-label-white{
+      color: white;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 <!-- HEADER -->
@@ -65,8 +71,44 @@
 </nav>
 <!-- HEADER -->
 <!-- CONTENT -->
-<div style="height: 1000px">
+<div class="container">
+  <div class="row align-items-center justify-content-center">
+    <div class="container mb-5">
+      <h1 class="text-center" style="font-weight: bold">Get in touch with me!</h1>
+      <br>
+      <p class="text-center">I would love to hear from you! Even a word of feedback means the world to me!</p>
+    </div>
+  </div>
 </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#262525" fill-opacity="1" d="M0,224L60,197.3C120,171,240,117,360,112C480,107,600,149,720,186.7C840,224,960,256,1080,261.3C1200,267,1320,245,1380,234.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+<div style="background-color: #262525">
+  <div><div class="container py-5">
+    <form>
+      <div class="row align-items-center justify-content-center">
+        <div class="col form-group">
+          <label for="firstName" class="form-label-white">First name</label>
+          <input type="text" id="firstName" class="form-control" placeholder="First name">
+        </div>
+        <div class="col form-group">
+          <label for="lastName" class="form-label-white">Last name</label>
+          <input type="text" id="lastName" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="emailAddress" class="form-label-white">Email address</label>
+        <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="messageText" class="form-label-white">Your message</label>
+        <textarea class="form-control" id="messageText" placeholder="What would you like to say to me?"></textarea>
+      </div>
+      <div class="col text-center">
+        <button type="submit" class="btn btn-light">Submit</button>
+      </div>
+    </form>
+  </div></div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#262525" fill-opacity="1" d="M0,128L60,106.7C120,85,240,43,360,42.7C480,43,600,85,720,96C840,107,960,85,1080,74.7C1200,64,1320,64,1380,64L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
 <!-- CONTENT -->
 <!-- FOOTER -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#262525" fill-opacity="1" d="M0,320L120,298.7C240,277,480,235,720,224C960,213,1200,235,1320,245.3L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
