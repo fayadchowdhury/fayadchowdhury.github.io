@@ -74,38 +74,44 @@
 <div class="container">
   <div class="row align-items-center justify-content-center">
     <div class="container mb-5">
-      <h1 class="text-center" style="font-weight: bold">Get in touch with me!</h1>
+      <div class="text-center">
+        <img src="resources/contact-1.svg" class="img-fluid">
+      </div>
+      <h1 class="text-center"><strong>Get in touch with me!</strong></h1>
       <br>
       <p class="text-center">I would love to hear from you! Even a word of feedback means the world to me!</p>
     </div>
   </div>
 </div>
 <div style="background-color: #262525">
-  <div><div class="container py-5">
-    <form>
-      <div class="row align-items-center justify-content-center">
-        <div class="col form-group">
-          <label for="firstName" class="form-label-white">First name</label>
-          <input type="text" id="firstName" class="form-control" placeholder="First name">
+  <div>
+    <div class="container py-5">
+      <form>
+        <div class="row align-items-center justify-content-center">
+          <div class="col form-group">
+            <label for="firstName" class="form-label-white">First name</label>
+            <input type="text" id="firstName" class="form-control" placeholder="First name">
+          </div>
+          <div class="col form-group">
+            <label for="lastName" class="form-label-white">Last name</label>
+            <input type="text" id="lastName" class="form-control" placeholder="Last name">
+          </div>
         </div>
-        <div class="col form-group">
-          <label for="lastName" class="form-label-white">Last name</label>
-          <input type="text" id="lastName" class="form-control" placeholder="Last name">
+        <div class="form-group">
+          <label for="emailAddress" class="form-label-white">Email address</label>
+          <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
         </div>
-      </div>
-      <div class="form-group">
-        <label for="emailAddress" class="form-label-white">Email address</label>
-        <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
-      </div>
-      <div class="form-group">
-        <label for="messageText" class="form-label-white">Your message</label>
-        <textarea class="form-control" id="messageText" placeholder="What would you like to say to me?"></textarea>
-      </div>
-      <div class="col text-center">
-        <button type="submit" class="btn btn-light">Submit</button>
-      </div>
-    </form>
-  </div></div>
+        <div class="form-group">
+          <label for="messageText" class="form-label-white">Your message</label>
+          <textarea class="form-control" id="messageText" placeholder="What would you like to say to me?"></textarea>
+        </div>
+        <div class="col text-center">
+          <button type="submit" class="btn btn-light">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div style="height: 300px"></div>
 </div>
 <!-- CONTENT -->
 <!-- FOOTER -->
